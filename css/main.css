@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Prototype;
+    src: url(../fonts/Prototype.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-img div a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: block;
+    float: left;
+    font-family: Prototype;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+.header-img{
+    display: block;
+  background-image: url('http://mcgov2.lt/img/header.jpg');
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+nav{
+    float: right;
+   margin: 35px 30px 10px 10px;*/
+}
+nav ul{
+}
+nav li{
+    margin-top: 0px;
+   display: inline;
+   font-family: Prototype;
+   font-size: 18px;
+   padding: 15px;
+}
+nav li > a{
+    color: #c2c1c1;
+    text-decoration: none;
+    padding: 20px 14px;
+}
+nav li a:hover {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #2e7cf0, #00d4ff);
+    border-image-slice: 1;
+
+    color: white;
+}
+.one{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+article{
+    display: block;
+    max-width: 700px;
+    height: 450px;
+    
+}
+.mcfont{
+       font-family: 'MinecraftiaRegular';
+}
+.slider-text{
+    font-size: 13px;
+    color: white;
+}
+.button-more > a{
+    text-decoration: none;
+    color: white;
+    font-family: Prototype;
+    font-size: 12px;
+    
+}
+.button-more{
+    max-width: 120px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 60px;
+}
+.button-more:hover{
+    background: linear-gradient(to right, #2e7cf0, #00d4ff);
+    
+}
+.mc-bg{
+    display: flex;
+    background-color: #16181d;
+    min-height: 500px;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+.mc-bg-2{
+    flex-direction: column;
+    background-color: #15171b;
+    margin-top: 20px;
+    width: 70%;
+    min-height: 400px;
+    margin-bottom: 40px;
+}
+.news-container{
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news-top{
+    background-color: #2e7cf0;
+    width: 100%;
+    height: 45px;
+}
+.news-top-text{
+    color: white;
+    font-family: 'MinecraftiaRegular';
+    font-size: 16px;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+}
+.news-article{
+
+    
+}
+.news-img{
+    background-color: rgba(45, 123, 240,.1);
+  display: block;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.news-text{
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+}
+.news-footer{
+    box-sizing: border-box;
+    display: block;
+    background-color: #1e2026;
+    width: 100%;
+    height: 15%;
+
+}
+.news-footer-text{
+    color: white;
+    font-size: 12px;
+    font-family: 'MinecraftiaRegular';
+    padding: 10px 10px;
+    
+}
+.news-date{
+    float: left;
+}
+.news-author{
+    float: right;
+}
+footer{
+    background-color: #1e2026;
+    width: 100%;
+    height: 100px;
+}
+.footer-text{
+    color: white;
+    font-size: 14px;
+    font-family: 'Prototype';
+    padding: 40px 10px ;
+    text-align: center;
+    
+}
